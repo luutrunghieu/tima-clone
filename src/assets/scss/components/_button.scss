@@ -1,0 +1,12 @@
+.btn-primary {
+  text-transform: uppercase;
+  background-color: $color-primary;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid $color-primary;
+  box-shadow: 0px 3px 0px rgba(244, 67, 54, 1);
+  min-width: 10rem;
+  &:hover {
+    background-color: $color-primary;
+  }
+}

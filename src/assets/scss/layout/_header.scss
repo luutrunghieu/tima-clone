@@ -1,0 +1,23 @@
+#header {
+  height: 90vh;
+  background-image: url(../img/banner.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 1rem;
+  .logo {
+    max-height: 4rem;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+  .header-image {
+    height: 30rem;
+    width: auto;
+  }
+  .regis-form{
+    max-width: 30rem;
+    margin-top: 2rem;
+    .btn {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.primary-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  &--main {
+    font-size: 2rem;
+    display: block;
+    color: $color-primary;
+  }
+  &--sub {
+    font-size: 1.5rem;
+    display: block;
+    color: $color-white;
+    font-weight: 400;
+  }
+}
+
+.secondary-heading {
+  display: inline-block;
+  font-size: 2rem;
+  border-bottom: 1px solid $color-primary;
+  font-weight: bold;
+}
